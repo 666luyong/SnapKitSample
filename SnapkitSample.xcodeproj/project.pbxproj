@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D613CAF01D2841CD00E17282 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D613CAEF1D2841CD00E17282 /* AppDelegate.swift */; };
+		D613CAF21D2841CD00E17282 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D613CAF11D2841CD00E17282 /* ViewController.swift */; };
+		D613CAF51D2841CD00E17282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D613CAF31D2841CD00E17282 /* Main.storyboard */; };
+		D613CAF81D2841CD00E17282 /* SnapkitSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D613CAF61D2841CD00E17282 /* SnapkitSample.xcdatamodeld */; };
+		D613CAFA1D2841CD00E17282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D613CAF91D2841CD00E17282 /* Assets.xcassets */; };
+		D613CAFD1D2841CD00E17282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D613CAFB1D2841CD00E17282 /* LaunchScreen.storyboard */; };
+		D620E5AF1D284C590033B0A8 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D620E5AE1D284C590033B0A8 /* SnapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D613CAEC1D2841CD00E17282 /* SnapkitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapkitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D613CAEF1D2841CD00E17282 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D613CAF11D2841CD00E17282 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D613CAF41D2841CD00E17282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D613CAF71D2841CD00E17282 /* SnapkitSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SnapkitSample.xcdatamodel; sourceTree = "<group>"; };
+		D613CAF91D2841CD00E17282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D613CAFC1D2841CD00E17282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D613CAFE1D2841CD00E17282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D620E5AE1D284C590033B0A8 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D613CAE91D2841CD00E17282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D620E5AF1D284C590033B0A8 /* SnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D613CAE31D2841CD00E17282 = {
+			isa = PBXGroup;
+			children = (
+				D620E5AE1D284C590033B0A8 /* SnapKit.framework */,
+				D613CAEE1D2841CD00E17282 /* SnapkitSample */,
+				D613CAED1D2841CD00E17282 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D613CAED1D2841CD00E17282 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D613CAEC1D2841CD00E17282 /* SnapkitSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D613CAEE1D2841CD00E17282 /* SnapkitSample */ = {
+			isa = PBXGroup;
+			children = (
+				D613CAEF1D2841CD00E17282 /* AppDelegate.swift */,
+				D613CAF11D2841CD00E17282 /* ViewController.swift */,
+				D613CAF31D2841CD00E17282 /* Main.storyboard */,
+				D613CAF91D2841CD00E17282 /* Assets.xcassets */,
+				D613CAFB1D2841CD00E17282 /* LaunchScreen.storyboard */,
+				D613CAFE1D2841CD00E17282 /* Info.plist */,
+				D613CAF61D2841CD00E17282 /* SnapkitSample.xcdatamodeld */,
+			);
+			path = SnapkitSample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D613CAEB1D2841CD00E17282 /* SnapkitSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D613CB011D2841CD00E17282 /* Build configuration list for PBXNativeTarget "SnapkitSample" */;
+			buildPhases = (
+				D613CAE81D2841CD00E17282 /* Sources */,
+				D613CAE91D2841CD00E17282 /* Frameworks */,
+				D613CAEA1D2841CD00E17282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapkitSample;
+			productName = SnapkitSample;
+			productReference = D613CAEC1D2841CD00E17282 /* SnapkitSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D613CAE41D2841CD00E17282 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = chenkai;
+				TargetAttributes = {
+					D613CAEB1D2841CD00E17282 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D613CAE71D2841CD00E17282 /* Build configuration list for PBXProject "SnapkitSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D613CAE31D2841CD00E17282;
+			productRefGroup = D613CAED1D2841CD00E17282 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D613CAEB1D2841CD00E17282 /* SnapkitSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D613CAEA1D2841CD00E17282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D613CAFD1D2841CD00E17282 /* LaunchScreen.storyboard in Resources */,
+				D613CAFA1D2841CD00E17282 /* Assets.xcassets in Resources */,
+				D613CAF51D2841CD00E17282 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D613CAE81D2841CD00E17282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D613CAF81D2841CD00E17282 /* SnapkitSample.xcdatamodeld in Sources */,
+				D613CAF21D2841CD00E17282 /* ViewController.swift in Sources */,
+				D613CAF01D2841CD00E17282 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D613CAF31D2841CD00E17282 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D613CAF41D2841CD00E17282 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D613CAFB1D2841CD00E17282 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D613CAFC1D2841CD00E17282 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D613CAFF1D2841CD00E17282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D613CB001D2841CD00E17282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D613CB021D2841CD00E17282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = SnapkitSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Personal.SnapkitSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D613CB031D2841CD00E17282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = SnapkitSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Personal.SnapkitSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D613CAE71D2841CD00E17282 /* Build configuration list for PBXProject "SnapkitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D613CAFF1D2841CD00E17282 /* Debug */,
+				D613CB001D2841CD00E17282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D613CB011D2841CD00E17282 /* Build configuration list for PBXNativeTarget "SnapkitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D613CB021D2841CD00E17282 /* Debug */,
+				D613CB031D2841CD00E17282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D613CAF61D2841CD00E17282 /* SnapkitSample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D613CAF71D2841CD00E17282 /* SnapkitSample.xcdatamodel */,
+			);
+			currentVersion = D613CAF71D2841CD00E17282 /* SnapkitSample.xcdatamodel */;
+			path = SnapkitSample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D613CAE41D2841CD00E17282 /* Project object */;
+}
