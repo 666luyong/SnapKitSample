@@ -16,6 +16,7 @@
 		D620E5AF1D284C590033B0A8 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D620E5AE1D284C590033B0A8 /* SnapKit.framework */; };
 		D620E5B01D2B9FBB0033B0A8 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D620E5AE1D284C590033B0A8 /* SnapKit.framework */; };
 		D620E5B11D2B9FBB0033B0A8 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D620E5AE1D284C590033B0A8 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D620E5B51D2BAC060033B0A8 /* Stork100.png in Resources */ = {isa = PBXBuildFile; fileRef = D620E5B41D2BAC060033B0A8 /* Stork100.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +43,7 @@
 		D613CAFC1D2841CD00E17282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D613CAFE1D2841CD00E17282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D620E5AE1D284C590033B0A8 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		D620E5B41D2BAC060033B0A8 /* Stork100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Stork100.png; path = Images/Stork100.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		D613CAEE1D2841CD00E17282 /* SnapkitSample */ = {
 			isa = PBXGroup;
 			children = (
+				D620E5B31D2BABD90033B0A8 /* Images */,
 				D613CAEF1D2841CD00E17282 /* AppDelegate.swift */,
 				D613CAF11D2841CD00E17282 /* ViewController.swift */,
 				D613CAF31D2841CD00E17282 /* Main.storyboard */,
@@ -86,6 +89,14 @@
 				D613CAF61D2841CD00E17282 /* SnapkitSample.xcdatamodeld */,
 			);
 			path = SnapkitSample;
+			sourceTree = "<group>";
+		};
+		D620E5B31D2BABD90033B0A8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D620E5B41D2BAC060033B0A8 /* Stork100.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 				D613CAFD1D2841CD00E17282 /* LaunchScreen.storyboard in Resources */,
 				D613CAFA1D2841CD00E17282 /* Assets.xcassets in Resources */,
 				D613CAF51D2841CD00E17282 /* Main.storyboard in Resources */,
+				D620E5B51D2BAC060033B0A8 /* Stork100.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
