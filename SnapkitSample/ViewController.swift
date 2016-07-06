@@ -25,10 +25,19 @@ class ViewController: UIViewController {
     var password = UITextField()
     var loginbut = UIButton()
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.initElements()
-        self.layoutElements()
+        
+        //Login UI
+        //self.initElements()
+        //self.layoutElements()
+        
+        //Base Sample
+        //self.learnSnapKit()
+        
+        //Add Refenerce
+        self.highleveloperator()
         
     }
 
@@ -107,7 +116,7 @@ class ViewController: UIViewController {
     }
     
     
-    //Learn Snapkit With Document
+    //Learn Snapkit With Document [基础用法]
     func learnSnapKit(){
         
         let superview = self.view;
@@ -175,5 +184,86 @@ class ViewController: UIViewController {
         //            make.edges.equalTo(superview).inset(UIEdgeInsetsMake(20, 20, 0, 0))
         //        }
     }
+    
+    
+    var orangeBox = UIView()
+    var topConstraint:Constraint?
+    var actionBut = UIButton()
+    
+    func highleveloperator() {
+        orangeBox.backgroundColor = UIColor.orangeColor()
+        self.view.addSubview(orangeBox)
+        
+        orangeBox.snp_makeConstraints { (make) in
+            make.width.height.equalTo(100)
+            make.centerX.equalTo(self.view)
+            self.topConstraint = make.top.equalTo(self.view).offset(100).constraint
+        }
+        
+        actionBut.backgroundColor = UIColor.brownColor()
+        actionBut.layer.borderWidth = 1
+        actionBut.layer.borderColor = UIColor.grayColor().CGColor
+        actionBut.layer.cornerRadius = 0.5
+        actionBut.setTitle("移除约束", forState: UIControlState.Normal)
+        actionBut.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        actionBut.addTarget(self, action:#selector(ViewController.btnTouch), forControlEvents: .TouchUpInside)
+        //actionBut.userInteractionEnabled = true
+        //actionBut.targetForAction(#selector(btnTouch), withSender: self)
+        self.view.addSubview(actionBut)
+        
+        actionBut.snp_makeConstraints { (make) in
+            make.top.equalTo(orangeBox.snp_bottom).offset(30)
+            make.width.equalTo(220)
+            make.height.equalTo(35)
+            make.centerX.equalTo(self.view)
+        }
+    }
+    
+    func btnTouch() {
+        print("come in")
+        if actionBut.titleLabel?.text == "移除约束" {
+            self.topConstraint?.uninstall()
+            actionBut.setTitle("更新约束", forState: .Normal)
+        }else{
+            self.topConstraint?.activate()//Don't miss when used the uninstall before
+            self.topConstraint?.updateOffset(200)
+            view.layoutIfNeeded()
+            actionBut.setTitle("移除约束", forState: .Normal)
+        }
+    
+    }
+    
+    override func updateViewConstraints() {
+        super.updateViewConstraints()
+        self.orangeBox.snp_updateConstraints { (make) in
+            make.width.equalTo(self.view)
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
